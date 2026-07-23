@@ -8,9 +8,11 @@ I'm a developer working on web applications and tools. Welcome to my GitHub prof
 Last updated: 2026-07-23
 
 * [Canvas-Resizer](https://ezshap-rgb.github.io/Canvas-Resizer) - No description
+* [Collager-and-Cropper-Studio](https://ezshap-rgb.github.io/Collager-and-Cropper-Studio) - No description
 * [Lechol-Zman-Dial-Designer](https://ezshap-rgb.github.io/Lechol-Zman-Dial-Designer) - Watch Dial Designer
 * [machal-portal](https://ezshap-rgb.github.io/machal-portal) - No description
 * [Passport-photo-creator](https://ezshap-rgb.github.io/Passport-photo-creator) - No description
+* [Simple-Calculator](https://ezshap-rgb.github.io/Simple-Calculator) - No description
 * [Simple-Photo-Cropper](https://ezshap-rgb.github.io/Simple-Photo-Cropper) - No description
 * [Sphere-it](https://ezshap-rgb.github.io/Sphere-it) - No description
 * [Whatsapp-Status-Creator](https://ezshap-rgb.github.io/Whatsapp-Status-Creator) - No description
