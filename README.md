@@ -16,6 +16,7 @@ Last updated: 2026-07-23
 * [Simple-Photo-Cropper](https://ezshap-rgb.github.io/Simple-Photo-Cropper) - No description
 * [Sphere-it](https://ezshap-rgb.github.io/Sphere-it) - No description
 * [Whatsapp-Status-Creator](https://ezshap-rgb.github.io/Whatsapp-Status-Creator) - No description
+* [Camp Tracker](https://ezshap-rgb.github.io/Camp-Budget-Tracker)
 <!-- PAGES-LIST:END -->
 
 ---
