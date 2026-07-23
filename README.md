@@ -1,16 +1,13 @@
-## Hi there 👋
+# Hi there, I'm Ezra Shapiro 👋
 
-<!--
-**ezshap-rgb/ezshap-rgb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a developer working on web applications and tools. Welcome to my GitHub profile!
 
-Here are some ideas to get you started:
+### 🌐 Live Demos & Deployed Projects
+<!-- PAGES-LIST:START -->
+<!-- PAGES-LIST:END -->
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🛠 Tech & Tools
+* **Languages:** JavaScript, HTML/CSS, Shell
+* **Version Control & Tools:** Git, GitHub, GitHub Actions
