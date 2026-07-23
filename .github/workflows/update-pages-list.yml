@@ -2,15 +2,14 @@ name: Update Deployed Pages List
 
 on:
   schedule:
-    # Runs automatically every Sunday at midnight UTC
     - cron: '0 0 * * 0'
-  workflow_dispatch: # Allows you to run it manually anytime from the Actions tab
+  workflow_dispatch:
 
 jobs:
   update-links:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Needed to commit changes back to the repo
+      contents: write
 
     steps:
       - name: Checkout Repository
@@ -25,24 +24,47 @@ jobs:
           echo "Last updated: $(date -u +'%Y-%m-%d')" >> pages_list.md
           echo "" >> pages_list.md
 
-          # Query GitHub API for all public repos owned by the user
+          # Query GitHub API safely
           gh api "users/$USERNAME/repos?per_page=100" --paginate \
             --jq '.[] | select(.has_pages == true) | "* [" + .name + "](https://'${USERNAME}'.github.io/" + .name + ") - " + (.description // "No description")' \
             >> pages_list.md
 
       - name: Insert List into README
         run: |
-          # Create markers if they don't exist in README.md
-          if ! grep -q "<!-- PAGES-LIST:START -->" README.md; then
-            echo -e "\n<!-- PAGES-LIST:START -->\n<!-- PAGES-LIST:END -->" >> README.md
-          fi
+          python3 -c '
+          import os
 
-          # Replace content between markers with the generated list
-          sed -i '/<!-- PAGES-LIST:START -->/,/<!-- PAGES-LIST:END -->/{
-            /<!-- PAGES-LIST:START -->/!{/<!-- PAGES-LIST:END -->/!d}
-            /<!-- PAGES-LIST:START -->/r pages_list.md
-          }' README.md
+          readme_path = "README.md"
+          list_path = "pages_list.md"
 
+          if not os.path.exists(readme_path):
+              with open(readme_path, "w") as f:
+                  f.write("# Profile\n\n<!-- PAGES-LIST:START -->\n<!-- PAGES-LIST:END -->\n")
+
+          with open(readme_path, "r") as f:
+              readme_content = f.read()
+
+          with open(list_path, "r") as f:
+              new_list = f.read().strip()
+
+          start_marker = "<!-- PAGES-LIST:START -->"
+          end_marker = "<!-- PAGES-LIST:END -->"
+
+          if start_marker not in readme_content or end_marker not in readme_content:
+              readme_content += f"\n\n{start_marker}\n{end_marker}\n"
+
+          start_idx = readme_content.find(start_marker) + len(start_marker)
+          end_idx = readme_content.find(end_marker)
+
+          updated_readme = (
+              readme_content[:start_idx]
+              + "\n" + new_list + "\n"
+              + readme_content[end_idx:]
+          )
+
+          with open(readme_path, "w") as f:
+              f.write(updated_readme)
+          '
           rm pages_list.md
 
       - name: Commit and Push Updates
