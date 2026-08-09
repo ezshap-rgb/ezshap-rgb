@@ -17,6 +17,8 @@ Last updated: 2026-08-09
 * [Simple-Photo-Cropper](https://ezshap-rgb.github.io/Simple-Photo-Cropper) - No description
 * [Sphere-it](https://ezshap-rgb.github.io/Sphere-it) - I simple app to turn any image or tecture into a 3d sphere image
 * [Whatsapp-Status-Creator](https://ezshap-rgb.github.io/Whatsapp-Status-Creator) - No description
+* [Wedding Budget Tracket](https://ezshap-rgb.github.io/Wedding-Budget-Tracker-gpt) - No description
+* 
 <!-- PAGES-LIST:END -->
 
 ---
