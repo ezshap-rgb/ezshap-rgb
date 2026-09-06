@@ -5,7 +5,7 @@ I'm a developer working on web applications and tools. Welcome to my GitHub prof
 ### 🌐 Live Demos & Deployed Projects
 <!-- PAGES-LIST:START -->
 ### 🌐 Live GitHub Pages Sites
-Last updated: 2026-08-30
+Last updated: 2026-09-06
 
 * [Camp-Budget-Tracker](https://ezshap-rgb.github.io/Camp-Budget-Tracker) - Track Camp Budget
 * [Canvas-Resizer](https://ezshap-rgb.github.io/Canvas-Resizer) - No description
@@ -16,6 +16,7 @@ Last updated: 2026-08-30
 * [Simple-Calculator](https://ezshap-rgb.github.io/Simple-Calculator) - No description
 * [Simple-Photo-Cropper](https://ezshap-rgb.github.io/Simple-Photo-Cropper) - No description
 * [Sphere-it](https://ezshap-rgb.github.io/Sphere-it) - I simple app to turn any image or tecture into a 3d sphere image
+* [Watch-Expert](https://ezshap-rgb.github.io/Watch-Expert) - Watch Knowledge games app
 * [Wedding-Budget-Tracker-gpt](https://ezshap-rgb.github.io/Wedding-Budget-Tracker-gpt) - Track wedding expenditures
 * [Whatsapp-Status-Creator](https://ezshap-rgb.github.io/Whatsapp-Status-Creator) - No description
 <!-- PAGES-LIST:END -->
