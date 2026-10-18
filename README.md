@@ -5,11 +5,13 @@ I'm a developer working on web applications and tools. Welcome to my GitHub prof
 ### 🌐 Live Demos & Deployed Projects
 <!-- PAGES-LIST:START -->
 ### 🌐 Live GitHub Pages Sites
-Last updated: 2026-10-11
+Last updated: 2026-10-18
 
+* [Audio-Trimmer](https://ezshap-rgb.github.io/Audio-Trimmer) - Simple app to trim audio
 * [Camp-Budget-Tracker](https://ezshap-rgb.github.io/Camp-Budget-Tracker) - Track Camp Budget
 * [Canvas-Resizer](https://ezshap-rgb.github.io/Canvas-Resizer) - No description
 * [Collager-and-Cropper-Studio](https://ezshap-rgb.github.io/Collager-and-Cropper-Studio) - No description
+* [launcher](https://ezshap-rgb.github.io/launcher) - Launches github apps
 * [Lechol-Zman-Dial-Designer](https://ezshap-rgb.github.io/Lechol-Zman-Dial-Designer) - Watch Dial Designer
 * [machal-portal](https://ezshap-rgb.github.io/machal-portal) - No description
 * [Passport-photo-creator](https://ezshap-rgb.github.io/Passport-photo-creator) - No description
