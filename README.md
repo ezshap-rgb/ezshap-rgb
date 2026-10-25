@@ -5,7 +5,7 @@ I'm a developer working on web applications and tools. Welcome to my GitHub prof
 ### 🌐 Live Demos & Deployed Projects
 <!-- PAGES-LIST:START -->
 ### 🌐 Live GitHub Pages Sites
-Last updated: 2026-10-18
+Last updated: 2026-10-25
 
 * [Audio-Trimmer](https://ezshap-rgb.github.io/Audio-Trimmer) - Simple app to trim audio
 * [Camp-Budget-Tracker](https://ezshap-rgb.github.io/Camp-Budget-Tracker) - Track Camp Budget
