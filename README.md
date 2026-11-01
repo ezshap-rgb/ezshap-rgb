@@ -5,7 +5,7 @@ I'm a developer working on web applications and tools. Welcome to my GitHub prof
 ### 🌐 Live Demos & Deployed Projects
 <!-- PAGES-LIST:START -->
 ### 🌐 Live GitHub Pages Sites
-Last updated: 2026-10-25
+Last updated: 2026-11-01
 
 * [Audio-Trimmer](https://ezshap-rgb.github.io/Audio-Trimmer) - Simple app to trim audio
 * [Camp-Budget-Tracker](https://ezshap-rgb.github.io/Camp-Budget-Tracker) - Track Camp Budget
@@ -19,6 +19,7 @@ Last updated: 2026-10-25
 * [Simple-Photo-Cropper](https://ezshap-rgb.github.io/Simple-Photo-Cropper) - No description
 * [Sphere-it](https://ezshap-rgb.github.io/Sphere-it) - I simple app to turn any image or tecture into a 3d sphere image
 * [Watch-Expert](https://ezshap-rgb.github.io/Watch-Expert) - Watch Knowledge games app
+* [WebADB](https://ezshap-rgb.github.io/WebADB) - ADB bloatware and protected app
 * [Wedding-Budget-Tracker-gpt](https://ezshap-rgb.github.io/Wedding-Budget-Tracker-gpt) - Track wedding expenditures
 * [Whatsapp-Status-Creator](https://ezshap-rgb.github.io/Whatsapp-Status-Creator) - No description
 <!-- PAGES-LIST:END -->
